@@ -1,0 +1,26 @@
+{
+  "name": "debounceButton",
+  "version": "1.0.0",
+  "description": "button input which supports double- and tripple- klicks",
+  "keywords": "button input",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/uwewoessner/debounceButton.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Uwe Woessner",
+      "email": "woessner@hlrs.de",
+      "url": "https://www.hlrs.de/people/woessner",
+      "maintainer": true
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.hlrs.de/people/woessner",
+  "dependencies": {
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif8266,espressif32"
+}
