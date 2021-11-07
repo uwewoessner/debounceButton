@@ -1,6 +1,6 @@
 {
   "name": "debounceButton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "button input which supports double- and tripple- klicks",
   "keywords": "button input",
   "repository":

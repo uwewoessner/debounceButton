@@ -29,6 +29,14 @@ void debounceButton::init(bool ui)
   buttons.push_back(this);
 }
 
+void debounceButton::initMCP()
+{
+  if(port > 0)
+  {
+    useInterrupt = false;
+    buttons.push_back(this);
+  }
+}
 void debounceButton::update()
 {
   currentTime = millis();

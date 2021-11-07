@@ -8,6 +8,7 @@ class debounceButton
 public:
   debounceButton(int port);
   void init(bool useInterrupts);
+  void initMCP();
   bool wasKlicked();
   bool wasDoubleKlicked();
   bool wasPressed(); // only true for one update cycle
